@@ -1,0 +1,14 @@
+{
+  "name": "upload-to-s3-and-postprocess",
+  "description": "Testing uploading a file to S3 to trigger a lambda function.",
+  "version": "1.0.0",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "aws-sdk": "^2.141.0",
+    "body-parser": "^1.18.2",
+    "clarifai": "^2.4.0",
+    "express": "^4.16.2",
+    "punkapi-lib": "^2.2.0"
+  }
+}
