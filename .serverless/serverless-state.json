@@ -122,7 +122,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/upload-to-s3-and-postprocess/dev/1509537590142-2017-11-01T11:59:50.142Z/upload-to-s3-and-postprocess.zip"
+                "S3Key": "serverless/upload-to-s3-and-postprocess/dev/1509547714293-2017-11-01T14:48:34.293Z/upload-to-s3-and-postprocess.zip"
               },
               "FunctionName": "upload-to-s3-and-postprocess-dev-postprocess",
               "Handler": "handler.postprocess",
@@ -141,14 +141,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "PostprocessLambdaVersionQBMp47IbmdwiMYwVTSexTQWaA6CGh0jaMaO0wuI": {
+          "PostprocessLambdaVersionE8VBaiIHfzjZrosHne6dSb2jpIYot02byUlqI5XlD9Y": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "PostprocessLambdaFunction"
               },
-              "CodeSha256": "QBMp47Ibm/dw+iMYwVTS/exTQ/WaA6CGh0jaMaO0wuI="
+              "CodeSha256": "E8VBaiIHfzjZrosHne6dSb2jpIYot02byUlqI5XlD9Y="
             }
           },
           "S3BucketPairingsawsbucket": {
@@ -214,7 +214,7 @@
           "PostprocessLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "PostprocessLambdaVersionQBMp47IbmdwiMYwVTSexTQWaA6CGh0jaMaO0wuI"
+              "Ref": "PostprocessLambdaVersionE8VBaiIHfzjZrosHne6dSb2jpIYot02byUlqI5XlD9Y"
             }
           }
         }
@@ -264,7 +264,7 @@
     "artifact": "/Users/NicoleCarvalho/Rutgers-Coding-Bootcamp/Homework/AWS-Form-Test/.serverless/upload-to-s3-and-postprocess.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/upload-to-s3-and-postprocess/dev/1509537590142-2017-11-01T11:59:50.142Z",
+    "artifactDirectoryName": "serverless/upload-to-s3-and-postprocess/dev/1509547714293-2017-11-01T14:48:34.293Z",
     "artifact": "upload-to-s3-and-postprocess.zip"
   }
 }
